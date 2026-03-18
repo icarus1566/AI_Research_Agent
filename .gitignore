@@ -1,0 +1,25 @@
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+*.local
+
+# Node.js
+node_modules/
+npm-debug.log
+.env
+.env.local
+
+# Git
+.DS_Store
+*.json.bak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Functions
+functions/node_modules/
+functions/lib/
+functions/package-lock.json (혹은 필요에 따라 유지)
