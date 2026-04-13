@@ -3,7 +3,7 @@ name: AI 연구 자료 자동 수집 Cron
 on:
   # 6시간마다 자동 실행 (UTC 기준: 0, 6, 12, 18시 → KST 9, 15, 21, 03시)
   schedule:
-    - cron: '0 */6 * * *'
+  #  - cron: '0 */6 * * *'
   # 수동 즉시 실행 (Actions 탭에서 클릭)
   workflow_dispatch:
 
